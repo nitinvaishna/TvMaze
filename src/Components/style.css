@@ -1,0 +1,113 @@
+ body{
+    background: url(../images/bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+ }
+ .container{
+    height: 600px;
+    width: 900px;
+    margin: 100px 100px 100px 200px;  
+    text-align: center;
+ }
+
+ .search{
+  height: 600px;
+  width: 900px;
+  margin: 100px 100px 100px 200px;  
+  text-align: center;
+}
+
+.header{
+  height: 600px;
+  width: 900px;
+  margin: 100px 100px 100px 200px; 
+  text-align: center;
+}
+ 
+ .NavBar{
+  color: red;
+ }
+
+ .list input{
+  text-align: center;
+ }
+ #Tvmaze{
+  color: red;
+ }
+ #header1{
+  position: absolute;
+  margin-top:50px;
+   color: white;
+   margin-left: 120px;
+   text-align: center;
+
+ }
+ #header2{
+   position: absolute;
+   margin-top:100px;
+   color: white;
+   margin-left: 80px;
+   
+ }
+ .search{
+  
+  height: 600px;
+  width: 900px;
+  color:#ff4081;
+  text-align: center;
+ }
+ 
+ #innner-serch{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 200px;
+ }
+
+ 
+ #inputbox{
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  border-radius: 1rem;
+  margin-top: 20px;
+  
+ }
+
+ .showdata{
+  position: absolute;
+  margin-top: 500px;
+  height: 1000px;
+  width: 1000px;
+ }
+ 
+ .actors{
+  position: absolute;
+  margin-top: 500px;
+  margin-right: 400px;
+  height: 1000px;
+  width: 1000px;
+ }
+ .showdata2{
+  background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+ 
+  
+  /* -------------media query------------- */
+
+  @media (max-width: 575px){
+    .search{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 575px){
+    .container{
+      width: 100%;
+    }
+  }
